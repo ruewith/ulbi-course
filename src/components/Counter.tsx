@@ -16,10 +16,10 @@ export const Counter = () => {
         <div>
             <h1>Счетчик: {counter}</h1>
             <button className={classes.btn} onClick={inc}>
-                +
+                inc
             </button>
             <button className={classes.btn} onClick={dec}>
-                -
+                dec
             </button>
         </div>
     );
