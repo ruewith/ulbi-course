@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 
 import './styles/index.scss';
 
@@ -8,7 +8,7 @@ import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 import { AppRouter } from './providers/router';
 
-const App = () => {
+function App() {
     const { theme } = useTheme();
 
     return (
@@ -23,6 +23,6 @@ const App = () => {
             </Suspense>
         </div>
     );
-};
+}
 
 export default App;
