@@ -32,6 +32,9 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'i18next/no-literal-string': ['error', { markupOnly: true }],
         'max-len': ['error', { code: 120, ignoreComments: true }],
+
+        'object-curly-newline': 'off',
+        'arrow-body-style': ['error', 'as-needed'],
     },
     globals: {
         __IS_DEV__: true,

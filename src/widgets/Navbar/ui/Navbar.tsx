@@ -23,6 +23,7 @@ export const Navbar = ({ className }: NavbarProps) => {
                 </AppLink>
                 <AppLink
                     theme={AppLinkTheme.SECONDARY}
+                    // eslint-disable-next-line
                     to="/about"
                 >
                     {t('O сайте')}
