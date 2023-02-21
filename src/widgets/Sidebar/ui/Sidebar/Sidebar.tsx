@@ -21,16 +21,9 @@ export const Sidebar = ({ className }: SidebarProps) => {
     };
 
     return (
-        <div
-            data-testid="sidebar"
-            className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}
-        >
-            <Button
-                type="button"
-                data-testid="sidebar-toggle"
-                onClick={onToggle}
-            >
-                {t('Toggle')}
+        <div data-testid="sidebar" className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}>
+            <Button type="button" data-testid="sidebar-toggle" onClick={onToggle}>
+                {t('Переключить')}
             </Button>
 
             <div className={cls.switchers}>
