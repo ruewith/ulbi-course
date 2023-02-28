@@ -1,7 +1,24 @@
 {
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi  impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
+    },
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
+    }
+  },
+  "Lorem, ipsum dolor sit amet consectetur adipisicing elit": {
+    " Facere ratione quibusdam cupiditate officiis": {
+      " Ullam voluptas quidem laboriosam rerum assumenda eius": {
+        "": ""
+      }
+    }
+  },
   "O сайте": "O сайте",
   "Toggle": "Toggle",
   "about": "about",
+  "lorem": "lorem",
+  "Войти": "Войти",
   "Выбросить ошибку": "Выбросить ошибку",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
