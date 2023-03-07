@@ -13,6 +13,9 @@
     "Переключить": "Toggle",
     "Короткий язык": "En",
     "Войти": "Enter",
+    "Выйти": "Exit",
     "Введите имя": "Enter name",
-    "Введите пароль": "Enter password"
+    "Введите пароль": "Enter password",
+    "Форма авторизации": "Auth form",
+    "Неверный логин или пароль": "Uncorrect login or password"
 }
