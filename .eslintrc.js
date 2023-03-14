@@ -35,13 +35,16 @@ module.exports = {
         'jsx-a11y/click-events-have-key-events': 'off',
         'jsx-a11y/no-static-element-interactions': 'off',
         'no-param-reassign': 'off',
+        'no-undef': 'off',
 
         // Косяки еслинт в вскод, в Вебшторме их нет
         'object-curly-newline': 'off',
         'arrow-body-style': 'off',
+        'implicit-arrow-linebreak': 'off',
     },
     globals: {
         __IS_DEV__: true,
+        __API__: true,
     },
     overrides: [
         {
